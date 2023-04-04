@@ -1,5 +1,5 @@
 #define  _CRT_SECURE_NO_WARNINGS 1
-n的阶乘
+//n的阶乘
 #include <stdio.h>
 int main()
 {
@@ -36,7 +36,7 @@ int main()
 	return 0;
 }
 
-阶乘相加
+//阶乘相加
 #include <stdio.h>
 int main()
 {
