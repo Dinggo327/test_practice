@@ -24,7 +24,29 @@ int main()
 	return 0;
 }
 
+//自定义乘法口诀表
+#include <stdio.h>
+void printf_table(int n)
+{
+	int i = 0;
+	for (i = 1; i <= n; i++)
+	{
+		int j = 0;
+		for (j = 1; j <= i; j++)
+		{
+			printf("%d*%d=%-2d ", i, j, i * j);
+		}
+		printf("\n");
+	}
+}
+int main()
+{
+	int n = 0;
+	scanf("%d", &n);
+	printf_table(n);
 
+	return 0;
+}
 
 
 
